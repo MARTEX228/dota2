@@ -1,0 +1,61 @@
+.header{
+    position: relative;
+    height: 100vh;
+    padding: 30px;
+}
+.homepage_BackgroundVideoContainer_33v9_{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.navigation .logo{
+    height: 40px;
+    display: block;
+}
+.navigation .logo img{
+    height: 100%;
+}
+.header ul{
+    display: flex;
+    grid-gap: 25px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif
+}
+.navigation {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    grid-gap: 40px;
+}
+.navigation li{
+    font-family: 'Reaver', serif
+}
+.navigation .vil a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 18px;
+    display: block;
+}
+.navigation .vil img{
+    height: 15px;
+}
+.header .navigation .voyti{
+    margin-bottom: 5px;
+}
+.navigation button{
+    background: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 3px solid rgba(220,220,220,0.5);
+    padding: 15px 30px;
+    grid-gap: 10px;
+    text-transform: uppercase;
+}
+.navigation button img{
+    height: 20px;
+}
