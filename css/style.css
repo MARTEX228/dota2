@@ -2,6 +2,9 @@
     position: relative;
     height: 100vh;
     padding: 30px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: center;
 }
 .homepage_BackgroundVideoContainer_33v9_{
     position: absolute;
@@ -10,6 +13,9 @@
     left: 0;
     right: 0;
     z-index: -1;
+}
+.homepage_BackgroundVideoContainer_33v9_ video{
+    width: 100%;
 }
 .navigation .logo{
     height: 40px;
@@ -58,4 +64,37 @@
 }
 .navigation button img{
     height: 20px;
+}
+.header .fm button{
+    background: none;
+    color: white;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    border: 3px solid rgba(220,220,220,0.5);
+    padding: 15px 50px;
+    grid-gap: 0 10px;
+    text-transform: uppercase;
+}
+.fm button span{
+    display: block;
+    grid-column: 2;
+    text-align: left;
+}
+.fm{
+    color: white;
+}
+.fm h1{
+    font-size: 60px;
+}
+.fm_sph2{
+    font-size: 20px;
+    color: #ffffff90;
+}
+.header .fm .fm_sp{
+    font-size: 15px;
+    color: #858585;
+}
+.header .fm button img{
+    grid-row: span 2;
 }
